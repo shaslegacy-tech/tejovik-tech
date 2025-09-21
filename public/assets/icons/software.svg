@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <rect x="8" y="12" width="48" height="40" rx="4" fill="url(#grad1)" stroke="#dd2476" stroke-width="2"/>
+  <rect x="16" y="20" width="32" height="4" rx="1" fill="white"/>
+  <rect x="16" y="28" width="32" height="4" rx="1" fill="white"/>
+  <rect x="16" y="36" width="32" height="4" rx="1" fill="white"/>
+  <defs>
+    <linearGradient id="grad1" x1="0" y1="0" x2="64" y2="64">
+      <stop offset="0%" stop-color="#ff512f">
+        <animate attributeName="stop-color" values="#ff512f;#dd2476;#ff512f" dur="3s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#dd2476">
+        <animate attributeName="stop-color" values="#dd2476;#ff512f;#dd2476" dur="3s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+  </defs>
+</svg>

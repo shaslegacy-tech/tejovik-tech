@@ -1,0 +1,33 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 64 64"
+  aria-label="TejoVik brand icon"
+>
+  <defs>
+    <linearGradient id="tvGrad" x1="0%" y1="0%" x2="200%" y2="0%">
+      <stop offset="0%" stop-color="#ff512f" />
+      <stop offset="50%" stop-color="#dd2476" />
+      <stop offset="100%" stop-color="#ff512f" />
+    </linearGradient>
+    <radialGradient id="tvGlow" cx="50%" cy="50%" r="60%">
+      <stop offset="60%" stop-color="rgba(255,255,255,0.2)" />
+      <stop offset="100%" stop-color="rgba(255,255,255,0)" />
+    </radialGradient>
+  </defs>
+
+  <!-- soft plate -->
+  <path
+    d="M20 6h24c3.1 0 5.9 1.7 7.3 4.4l9.2 17.2c1.4 2.7 1.4 5.9 0 8.6l-9.2 17.2C50 56.3 47.1 58 44 58H20c-3.1 0-5.9-1.7-7.3-4.4L3.6 36.2c-1.4-2.7-1.4-5.9 0-8.6L12.7 10.4C14.1 7.7 16.9 6 20 6Z"
+    fill="url(#tvGrad)"
+    opacity="0.12"
+  />
+
+  <!-- monogram T -->
+  <g fill="url(#tvGrad)">
+    <path d="M12 20c0-1.657 1.343-3 3-3h34c1.657 0 3 1.343 3 3s-1.343 3-3 3H35v23c0 1.657-1.343 3-3 3s-3-1.343-3-3V23H15c-1.657 0-3-1.343-3-3Z" />
+    <path d="M46 26L26 46" stroke="url(#tvGrad)" stroke-width="4" stroke-linecap="round" />
+  </g>
+
+  <!-- glow -->
+  <circle cx="32" cy="32" r="28" fill="url(#tvGlow)" opacity="0.15" />
+</svg>

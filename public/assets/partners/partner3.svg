@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <polygon points="32,4 60,32 32,60 4,32" fill="url(#grad3)" stroke="#dd2476" stroke-width="2"/>
+  <text x="32" y="37" font-size="18" font-family="Arial" fill="white" text-anchor="middle" font-weight="bold">P3</text>
+  <defs>
+    <linearGradient id="grad3" x1="0" y1="0" x2="64" y2="64">
+      <stop offset="0%" stop-color="#ff512f">
+        <animate attributeName="stop-color" values="#ff512f;#dd2476;#ff512f" dur="4s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#dd2476">
+        <animate attributeName="stop-color" values="#dd2476;#ff512f;#dd2476" dur="4s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+  </defs>
+</svg>
